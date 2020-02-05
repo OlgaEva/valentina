@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <title>Valentina slideshow</title>
+    </head>
+    <body>
+    <script>
+        var i = 0;
+        var images = [];
+        var time = 3000;
+
+
+// Image List
+    images[0] = "https://i.ibb.co/gVQ9Pn5/Adrian.jpg";
+    images[1] = "https://i.ibb.co/r5g6NFf/Amaia.jpg";
+    images[2] = "https://i.ibb.co/nnC96t3/Amelie.jpg";
+    images[3] = "https://i.ibb.co/h241Rdn/AndresE.jpg";
+    images[4] = "https://i.ibb.co/59t776F/AndresG.jpg";
+    images[5] = "https://i.ibb.co/hBnVXBx/Diego.jpg";
+    images[6] = "https://i.ibb.co/DbTdqQW/Emma.jpg";
+    images[7] = "https://i.ibb.co/6rWJYM6/Esteban.jpg";
+    images[8] = "https://i.ibb.co/jbM0s2d/Fernando.jpg";
+    images[9] = "https://i.ibb.co/c6QnBJX/Geronimo.jpg";
+    images[10] = "https://i.ibb.co/B4tNmPB/Gustavo.jpg";
+    images[11] = "https://i.ibb.co/MhTFsr8/Jimena.jpg";
+    images[12] = "https://i.ibb.co/wdgF6sf/LuisF.jpg";
+    images[13] = "https://i.ibb.co/Tq202Hp/MarianaC.jpg";
+    images[14] = "https://i.ibb.co/Fqd0jd5/MarianaV.jpg";
+    images[15] = "https://i.ibb.co/PZdzpWr/Mauro.jpg";
+    images[16] = "https://i.ibb.co/vLyD3xT/Nameless-Gabriela-o-Maria-V.jpg";
+    images[17] = "https://i.ibb.co/KLN9jTR/Olivia.jpg";
+    images[18] = "https://i.ibb.co/PWbZv3H/Paula.jpg";
+    images[19] = "https://i.ibb.co/1nDHp9K/Perla.jpg";
+    images[20] = "https://i.ibb.co/Pg98FyH/Victoria.jpg";
+
+// Change Image
+    function changeImg(){
+        document.slide.src = images[i];
+
+        if(i<images.length - 1){
+            i++;
+        } else{
+            i = 0;
+        }
+
+    setTimeout("changeImg()", time);
+}
+
+window.onload = changeImg;
+
+
+</script>
+</body>
+</html>
+<img name="slide" width="1100" height="850">
+
+
+
