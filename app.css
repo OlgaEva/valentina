@@ -1,0 +1,18 @@
+/*GOOGLE FONTS
+Open Sans usage: 
+font-family: 'Open Sans', sans-serif;
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+"https://i.ibb.co/Smngf9R/patrick-tomasso-Oaqk7qq-Nh-c-unsplash.jpg" alt="patrick-tomasso-Oaqk7qq-Nh-c-unsplash"
+*/
+
+
+
+body {
+    background-image: url("https://i.ibb.co/Smngf9R/patrick-tomasso-Oaqk7qq-Nh-c-unsplash.jpg"); 
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif; 
+}
+
